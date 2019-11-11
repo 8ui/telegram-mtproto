@@ -2,7 +2,7 @@
 const { resolve, join } = require('path')
 const webpack = require('webpack')
 
-const source = resolve(process.cwd(), 'source')
+const source = resolve(process.cwd(), 'src')
 const build = resolve(process.cwd(), 'dist')
 
 const vendorDll = require(join(build, 'vendor.json'))
